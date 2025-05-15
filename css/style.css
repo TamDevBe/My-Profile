@@ -1,0 +1,24 @@
+@import "/components/nav-mobile.css";
+@import "/components/header.css";
+@import "/components/main.css";
+*{
+  box-sizing:border-box;
+}
+.icon{
+  font-size: 25px;
+}
+.dark-mode{
+  background: #333;
+  color: #fff;
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  width: 100%;
+}
+.container-full{
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
+}

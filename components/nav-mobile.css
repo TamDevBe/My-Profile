@@ -1,0 +1,32 @@
+#nav-mobile {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 220px; 
+  height: 100vh;
+  background: white; 
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+ 
+}
+
+#nav-mobile.active {
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+  pointer-events: auto;
+  opacity: 1;
+}
+#nav-mobile.dark-mode {
+  background: #222;
+  color: #fff;
+}
+#nav-mobile.dark-mode a,
+#nav-mobile.dark-mode .icon {
+  color: #fff;
+}
+#nav-mobile{
+  ul{
+    
+  }
+}
